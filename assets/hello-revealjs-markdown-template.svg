@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">revealjs-markdown-template</title>
+  <desc id="desc">A simple logo for the revealjs-markdown-template project.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="40" fill="#f8fafc" />
+  <rect x="48" y="48" width="220" height="224" rx="28" fill="url(#accent)" />
+  <g fill="#ffffff">
+    <rect x="96" y="102" width="124" height="18" rx="9" opacity="0.95" />
+    <rect x="96" y="138" width="96" height="18" rx="9" opacity="0.85" />
+    <rect x="96" y="174" width="132" height="18" rx="9" opacity="0.75" />
+    <rect x="96" y="210" width="88" height="18" rx="9" opacity="0.65" />
+  </g>
+  <g font-family="'Noto Sans JP', sans-serif" fill="#0f172a">
+    <text x="320" y="136" font-size="34" font-weight="700">Reveal.js Markdown Template</text>
+    <text x="320" y="184" font-size="22" fill="#475569">Build presentation decks from ordered Markdown files.</text>
+    <text x="320" y="226" font-size="22" fill="#475569">Config-driven, previewable, and ready for templated reuse.</text>
+  </g>
+</svg>

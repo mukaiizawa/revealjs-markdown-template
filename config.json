@@ -1,0 +1,25 @@
+{
+  "title": "Reveal Presentation",
+  "lang": "ja",
+  "cdn": {
+    "revealCss": "https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css",
+    "highlightCss": "https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css",
+    "revealJs": "https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js",
+    "markdownPlugin": "https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js",
+    "highlightPlugin": "https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"
+  },
+  "reveal": {
+    "hash": true,
+    "slideNumber": true,
+    "controls": true,
+    "progress": true,
+    "transition": "slide",
+    "backgroundTransition": "fade",
+    "width": 1600,
+    "height": 900,
+    "plugins": [
+      "RevealMarkdown",
+      "RevealHighlight"
+    ]
+  }
+}

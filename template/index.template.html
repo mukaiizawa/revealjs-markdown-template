@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{LANG}}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{TITLE}}</title>
+        <link rel="stylesheet" href="{{CDN_REVEAL_CSS}}">
+        <link rel="stylesheet" href="{{CDN_HIGHLIGHT_CSS}}">
+        <link rel="stylesheet" href="./assets/theme.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section
+                        data-markdown="slides.md"
+                        data-separator="^---$">
+                </section>
+            </div>
+        </div>
+        <script src="{{CDN_REVEAL_JS}}"></script>
+        <script src="{{CDN_MARKDOWN_PLUGIN}}"></script>
+        <script src="{{CDN_HIGHLIGHT_PLUGIN}}"></script>
+        <script>
+            Reveal.initialize({{REVEAL_OPTIONS_JSON}});
+        </script>
+    </body>
+</html>
